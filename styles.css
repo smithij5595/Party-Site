@@ -19,23 +19,3 @@ body {
   opacity: 0.85;
   transition: opacity 0.2s ease;
 }
- 
-/* Details page — back nav */
-.back-nav {
-  padding: 1rem 1.5rem;
-  background: #111;
-}
- 
-.back-link {
-  color: #fff;
-  text-decoration: none;
-  font-family: Georgia, serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.03em;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
- 
-.back-link:hover {
-  opacity: 1;
-}
