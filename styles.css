@@ -5,9 +5,7 @@
 }
 
 body {
-  background: url("imgs/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #392f80;
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
   display: flex;
