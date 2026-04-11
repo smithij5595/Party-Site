@@ -13,21 +13,17 @@ body {
   align-items: center;
 }
 
-.itin-container {
-  margin: 60px 25px 60px 25px;
-  width:80vw;
+.container{
+	text-align: center;
 }
 
-.img-container{
-  text-align: center;
-}
-
-.img-container > img {
-  width: 100%;
+.container > img {
+	width: 100%;
 }
 
 .container {
-  width: 60%;
+	text-align: center;
+	width: 60%;
 }
 
 @media (max-width: 450px) {
@@ -40,45 +36,4 @@ body {
 	.container {
 		width: 70%;
 	}
-}
-
-
-#card-flip {
-    display: none;
-}
-
-#card-flip:checked + label > .card {
-    transform: rotateY(180deg);
-}
-
-.card {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  transition: transform 1500ms;
-  transform-style: preserve-3d;
-}
-
-.front,
-.back {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.front {
-  background-image: url("/imgs/1.png");
-}
-
-.back {
-  background-image: url("/imgs/2.png");
-  transform: rotateY(180deg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
