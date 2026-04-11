@@ -28,23 +28,17 @@ body {
 
 .container {
   width: 60%;
-  aspect-ratio: 1.41/1;
-  perspective: 800px;
 }
 
 @media (max-width: 450px) {
 	.container {
 		width: 90%;
-		aspect-ratio: 1.41/1;
-		perspective: 600px;
 	}
 }
 
 @media (max-width: 800px) {
 	.container {
 		width: 70%;
-		aspect-ratio: 1.41/1;
-		perspective: 700px;
 	}
 }
 
