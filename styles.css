@@ -448,7 +448,7 @@ body {
     padding: clamp(1.375rem, 3vw, 2rem) 0;
     box-sizing: content-box;
     /* 15px - 24px */
-    padding-left: clamp(0.9375rem, 3vw, 1.5rem);
+    padding-left: clamp(1.3rem, 3vw, 1.5rem);
     position: relative;
   }
   #steps-284 .cs-item-text:before {
@@ -462,7 +462,7 @@ body {
     position: absolute;
     display: block;
     top: 0;
-    left: 0;
+    left: 0.2rem;
   }
   #steps-284 .cs-item-text:after {
     /* list circle */
@@ -477,7 +477,7 @@ body {
     position: absolute;
     display: block;
     top: 50%;
-    left: -0.9375rem;
+    left: -0.8rem;
     transform: translateY(-50%);
   }
   #steps-284 .cs-schedule {
